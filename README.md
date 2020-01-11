@@ -2,11 +2,11 @@
 
 Downloads v.redd.it videos as mp4s.
 
-`vdl` file is an executable Python 2 script that can be copied right into your path.
+`vdl-py3` file is an executable Python3 script that can be copied right into your path.
 
-**Note**: `vdl` downloads to the current directory by default, whereas `vdl.py` creates an `./out/` directory and downloads there.
+**Note**: `vdl-py3` downloads to the current directory by default.
 
-**Note 2**: Actual v.redd.it URLs don't work too well because it should be easier to just link the post itself. If for some reason you find yourself having v.redd.it URLs more easily accessible than the post URL, open an issue and I can make it work.
+**Note 2**: Actual v.redd.it URLs don't work too well because it should be easier to just link the post itself.
 
 ### Dependencies
 
@@ -21,7 +21,7 @@ Requirements can also be found in `requirements.txt`.
 
 ### Usage
 
-`vdl <url>`
+`vdl-py3 <url>`
 
 `<url>` can be either a link to a Reddit post or a .mpd link.
 
